@@ -65,14 +65,15 @@ main {
 
 .label {
     position: absolute;
-    background-color: white;
     text-align: center;
     padding: 5px;
     font-weight: 700;
     font-size: 15px;
+    color: white;
 }
 
 .label.heart {
+    color: black;
     right: 0;
     top: 30px;
     width: 30px;
@@ -80,18 +81,19 @@ main {
     padding: 0;
     line-height: 30px;
     font-size: 20px;
+    background-color: white;
 }
 
 .label.discount {
     left: 0;
     bottom: 40px;
-    background-color: red;
+    background-color: #eb0037;
 }
 
 .label.sustainability {
     left: 0;
     bottom: 40px;
-    background-color: green;
+    background-color: #00875a;
 }
 
 /* margine sinistro se il prodtto ha più etichette */
