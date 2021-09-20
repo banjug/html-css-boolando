@@ -3,3 +3,32 @@
     margin: 0;
     padding: 0;
 }
+
+.clearfix {
+    content: "";
+    clear: both;
+    display:table;
+    width: 100%;
+}
+
+main {
+    width: 80%;
+    height: 1000px;
+    margin: 20px auto;
+    background-color: cadetblue;
+}
+
+.productCard {
+    width: calc(100% / 3);
+    height: 100%;
+    padding: 0 10px;
+    float: left;
+    background-color: chartreuse;
+}
+
+.productCard img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    overflow: hidden;
+}
