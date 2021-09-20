@@ -90,14 +90,24 @@ main {
     margin-left: 55px;
 }
 
-.productCard h2 {
+.productName {
     font-weight: 700;
+    font-size: 20px;
 }
 
-.productCard h3 {
+.brand {
     font-weight: 500;
+    font-size: 15px;
 }
 
-.oldPrice {
-    font-weight: 400;
+.price {
+    color: red;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.price span{
+    color: black;
+    text-decoration: line-through;
+    font-weight: 500;
 }
