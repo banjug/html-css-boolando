@@ -41,11 +41,11 @@ main {
     cursor: pointer;
 }
 
+/* immagine prodotto */
 .productImg {
     position: relative;
 }
 
-/* immagine prodotto */
 .productCard .productImg img {
     width: 100%;
     height: 600px;
@@ -70,7 +70,6 @@ main {
 }
 
 .label {
-    /* position: absolute; */
     text-align: center;
     padding: 5px;
     font-weight: 700;
@@ -97,11 +96,6 @@ main {
 
 .label.sustainability {
     background-color: #00875a;
-}
-
-/* margine sinistro se il prodtto ha più etichette */
-.twoLabels {
-    margin-left: 55px;
 }
 
 /* titoli prodotto */
