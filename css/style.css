@@ -29,6 +29,12 @@ main {
     padding: 0 10px;
     float: left;
     background-color: chartreuse;
+    position: relative;
+}
+
+.productCard:hover .imgHover {
+    display: inline-block;
+    cursor: pointer;
 }
 
 .productImg {
@@ -42,16 +48,46 @@ main {
     overflow: hidden;
 }
 
-.heart {
+.imgHover {
     position: absolute;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.label {
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.label.heart {
     right: 0;
     top: 30px;
     width: 30px;
     height: 30px;
-    background-color: white;
-    text-align: center;
+    padding: 0;
     line-height: 30px;
-    font-size: 20px 
+    font-size: 20px;
+}
+
+.label.discount {
+    left: 0;
+    bottom: 40px;
+    background-color: red;
+}
+
+.label.sustainability {
+    left: 0;
+    bottom: 40px;
+    background-color: green;
+}
+
+.label.sustainability.twoLabels {
+    margin-left: 55px;
 }
 
 .productCard h2 {
